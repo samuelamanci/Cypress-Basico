@@ -1,2 +1,2 @@
-#  Treinando o básico de automação com Cypress
+#  Automação com Cypress
 Treinando o básico de automação de testes utilizando Cypress.
