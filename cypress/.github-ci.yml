@@ -1,0 +1,12 @@
+//arquivo onde se configura o pipeline para rodar o continue integration
+
+image: 'cypress.base'
+
+stages: 
+  - e2e
+
+end-to-end testing:
+  stage: e2e
+  Script:
+    - npm install
+    - npx test
